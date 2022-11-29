@@ -22,13 +22,15 @@ const produtos = [
         valor: 7.50
     },
 ]
-
+produtos.sort(function (categoria){
+    return categoria;
+});
+console.log(produtos);
 
 function listar() {
     produtos.forEach(p => {
+
         console.log(p)
     })
 }
-
-
 
