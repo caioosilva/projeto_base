@@ -22,8 +22,8 @@ const produtos = [
         valor: 7.50
     },
 ]
-produtos.sort(function (categoria){
-    return categoria;
+produtos.sort(function (x, y) {
+    return x.valor - y.valor;
 });
 console.log(produtos);
 
